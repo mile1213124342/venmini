@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 130px;
+    font-size: 60px;
+}
+
+.line{
+    position: relative;
+    left: 37%;
+    right: 40%;
+    width: 500px;
+    size: 8px;
+    color: black;
+}
