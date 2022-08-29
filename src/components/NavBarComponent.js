@@ -1,7 +1,9 @@
 import React from 'react'
 import logo from "./images/logo.png";
-import background from  "./images/slice3.jpeg"
+import background from  "./images/navbar-nosotros.jpeg"
 import "./navbar.css"
+
+import {Link} from "react-router-dom"
 
 export default function NavBarComponent() {
 
@@ -36,7 +38,7 @@ export default function NavBarComponent() {
 
   return (
     <div style={backg}  className="center">
-        <nav className="navbar navbar-expand-lg navbar-light shadow-5-strong center">
+        <nav className="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
 
                 <a class="navbar-brand" href="#">
                   <img src={logo} className="img-responsive img" width="150px"  alt="logo" />
@@ -71,7 +73,7 @@ export default function NavBarComponent() {
                           </div>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" style={fontColorNav}>Contacto</a>
+                          <Link to="/contacto" class="nav-link" style={fontColorNav}> Contacto</Link>
                         </li>
                   </ul>
                   
