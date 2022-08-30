@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "./images/logo.png";
-import background from  "./images/navbar-contacto.jpg"
+import background from  "./images/navbar-contacto2.jpg"
 import "./navbar.css"
 
 export default function NavBarComponentContacto() {
@@ -43,8 +43,8 @@ export default function NavBarComponentContacto() {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav" >
+                <div className="collapse navbar-collapse center" id="navbarSupportedContent">
+                  <ul className="navbar-nav navbar-center" >
                         <li className="nav-item active">
                           <a className="nav-link"style={fontColorNav} href="#">NOSOTROS <span className="sr-only">(current)</span></a>
                         </li>

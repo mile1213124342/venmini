@@ -12,9 +12,8 @@ export default function NavBarComponentProductos() {
       }
   
       const fontColorNav = {
-          color:"white",
+          color:"black",
           fontSize:"25px",
-          
       }
     
       const backg = {
@@ -28,7 +27,7 @@ export default function NavBarComponentProductos() {
       }
   
       const text = {
-        color:"white",
+        color:"black",
         fontSize:"60px",
         marginTop:"50px"
       }
@@ -41,11 +40,11 @@ export default function NavBarComponentProductos() {
                 <a className="navbar-brand" href="#">
                   <img src={logo} className="img-responsive img" width="150px"  alt="logo" />
                 </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" style={{marginRight:"50px",color:"black"}} data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav" >
+                  <ul className="navbar-nav navbar-center" >
                         <li className="nav-item active">
                           <a className="nav-link"style={fontColorNav} href="#">NOSOTROS <span className="sr-only">(current)</span></a>
                         </li>
@@ -62,7 +61,7 @@ export default function NavBarComponentProductos() {
                           </div>
                         </li>
                         <li className="nav-item dropdown">
-                          <a className="nav-link " href="#" role="button" style={fontColorNav} data-toggle="dropdown" aria-expanded="false">
+                          <a className="nav-link " href="#" role="button" style={fontColorNav} data-toggle="dropdown" aria-expanded="false" >
                             Galeria
                           </a>
                           <div className="dropdown-menu">
