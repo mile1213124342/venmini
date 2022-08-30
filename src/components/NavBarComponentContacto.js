@@ -30,7 +30,7 @@ export default function NavBarComponentContacto() {
       const text = {
         color:"white",
         fontSize:"60px",
-        marginTop:"50px"
+        marginTop:"150px"
       }
 
   return (
