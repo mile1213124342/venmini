@@ -14,23 +14,87 @@
     width: 500px;
     size: 8px;
     color: black;
+    margin-bottom: 50px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
-    height: 300px;
+    grid-gap: 500px;
+    height: 650px;
     border: 5px black;
-    padding: 10px;
+    
   }
   
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+  
     font-size: 30px;
   }
   p{
     font-size: 28px;
   }
-  
+  .htext1{
+    text-align: center;
+    font-size: 23px;
+  }
+  .htext2{
+    font-size: 23px;
+  }
+  .htext3{
+    font-size: 23px;
+  }
+  .item2{
+    margin-right: 50px;
+    width: 600px;
+  }
+
+  .grid2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    height: 630px;
+    border: 5px black;
+   
+  }
+
+  .grid2 > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    
+    font-size: 30px;
+   
+  }
+  .item27{
+      padding: 30px;
+      width: 500px;
+      margin-left: 60px;
+  }
+  .htext4{
+    font-size: 22px;
+    width: 500px;
+  }
+
+  .grid3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    height: 680px;
+    border: 5px black;
+    padding: 10px;
+  }
+
+  .grid3 > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+  }
+  .item30{
+    width: 550px;
+  }
+.htext5{
+  font-size: 20px;
+}
+

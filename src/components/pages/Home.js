@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <div >
         <NavBarComponent/>
-       
-        <FooterComponent/>
+        <NuestraHistoriaComponent/>
+       <FooterComponent/>
+
 
     </div>
   )

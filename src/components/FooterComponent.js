@@ -10,29 +10,29 @@ export default function FooterComponent() {
   return (
     <div style={{border:"5px solid black", margin:"20px"}}>
         <hr style={{marginTop:"50px",marginLeft:"50px",marginRight:"50px"}}></hr>
-        <div className="grid-container" style={{height:"230px"}}>
-          <div className="item1">
-            <p className='text1' style={{width:"600px", display:"inline-block"}}>
+        <div className="grid-footer" style={{height:"230px"}}>
+          <div className="item40">
+            <p className='text12' style={{width:"600px", display:"inline-block"}}>
               Encontra todo en nuestras redes sociales, te esperamos en nuestro local
               en Punta Arenas para ofrecerte los mejores productos de calidad y la mejor atención
             </p>
             
           </div>
-          <div className="item2">
+          <div className="item41">
             
               <h1>Encuentranos aqui</h1>
               <i><img src={iconinsta} style={{width:"50px", marginRight:"5px"}}></img></i>
               <i><img src={iconfacebook} style={{width:"50px", marginRight:"5px"}}></img></i>
               <i href="http://bit.ly/WhatsVenMini"><img src={iconwhats} style={{width:"50px"}}></img></i>
               <h1>Pregunte aquí</h1>
-              <a href='' style={{color:"yellow"}}>www.venminimarket.com</a>
+              <a href='' style={{color:"yellow",fontSize:"30px"}}>www.venminimarket.com</a>
           </div>
          
         </div>
         <hr style={{marginLeft:"50px",marginRight:"50px"}}></hr>
 
-        <div className="grid-container">
-          <div className="item1">
+        <div className="grid-footer">
+          <div className="item42">
             <p style={{width:"600px", display:"inline-block"}}>
               Punta Arenas se encuentra en el extremo sur de Chile, y es 
               la ciudad más poblada y cosmopolita de la Patagonia Chile.
@@ -41,25 +41,25 @@ export default function FooterComponent() {
             </p>
             
           </div>
-          <div className="item2">
+          <div className="item43">
             
-          <div className="grid-container" style={{padding:"0px",height:"200px"}}>
-          <div className="item1">
+          <div className="grid-footer2" style={{padding:"0px",height:"200px"}}>
+          <div className="item99">
             <ul style={{display:"grid"}} >
-              <Link to="/productos" style={{color:"black",textDecoration:"none"}}>PRODUCTOS</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Quesos</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Fiambres</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Embutidos</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Golosinas</Link>
+              <Link to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>PRODUCTOS</Link>
+              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Quesos</Link>
+              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Fiambres</Link>
+              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Embutidos</Link>
+              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Golosinas</Link>
             </ul>
             
           </div>
-          <div className="item2">
+          <div className="item100">
 
             <ul style={{display:"grid"}}>
-              <Link to="/galeria" style={{color:"black",textDecoration:"none"}}>Galeria</Link>
-              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Equipo</Link>
-              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Sumate</Link>
+              <Link to="/galeria" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Galeria</Link>
+              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Equipo</Link>
+              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Sumate</Link>
             </ul>
     
           </div>
