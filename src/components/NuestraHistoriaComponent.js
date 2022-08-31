@@ -51,7 +51,7 @@ export default function NuestraHistoriaComponent() {
           </div>
 
           <div className='item28'>
-          <img src={sec2img}  style={{width:"600px",height:"600px",marginLeft:"50px",marginRight:"30px"}} alt="imagen"/>
+          <img src={sec2img}  style={{width:"600px",height:"600px",marginLeft:"0px",marginRight:"30px"}} alt="imagen"/>
           </div>
 
         </div>

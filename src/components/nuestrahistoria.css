@@ -19,7 +19,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 500px;
+    grid-gap: 400px;
     height: 650px;
     border: 5px black;
     
