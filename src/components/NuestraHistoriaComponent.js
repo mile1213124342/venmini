@@ -3,22 +3,70 @@ import './nuestrahistoria.css'
 import sec1img from "./historia/historia3.png"
 import sec2img from "./historia/historia1.png"
 import sec3img from "./historia/historia2.png"
+import ScrollMagic from "scrollmagic"
 
 
 
 export default function NuestraHistoriaComponent() {
+
+  var controller = new ScrollMagic.Controller();
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger0",
+    triggerHook: 0.9, // show, when scrolled 10% into view
+    duration: "90%", // hide 10% before exiting view (80% + 10% from bottom)
+    offset: 1// move trigger to center of element
+  })
+  .setClassToggle("#reveal0", "visible") // add class to reveal
+  .addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
+
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger1",
+    triggerHook: 0.9, // show, when scrolled 10% into view
+    duration: "130%", // hide 10% before exiting view (80% + 10% from bottom)
+    offset: 1// move trigger to center of element
+  })
+  .setClassToggle("#reveal1", "visible") // add class to reveal
+  .addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger2",
+    triggerHook: 0.9, // show, when scrolled 10% into view
+    duration: "100%", // hide 10% before exiting view (80% + 10% from bottom)
+    offset: 1// move trigger to center of element
+  })
+  .setClassToggle("#reveal2", "visible") // add class to reveal
+  .addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger3",
+    triggerHook: 0.9, // show, when scrolled 10% into view
+    duration: "100%", // hide 10% before exiting view (80% + 10% from bottom)
+    offset: 1// move trigger to center of element
+  })
+  .setClassToggle("#reveal3", "visible") // add class to reveal
+  .addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
+
+
   return (
     <div style={{}}>
+        <div id="trigger0" class="spacer s0"></div>
+        <div id='reveal0'>
         <h2 className='titulo'>Ciudadanos del mundo</h2>
+        <hr className='line'/>
+        </div>
 
-          <hr className='line'/>
-
-        <div className="grid-container">
-          <div className="item1">
-            <img src={sec1img}  style={{width:"600px",height:"600px",marginLeft:"50px",marginRight:"30px"}} alt="imagen"/>
-            
+        <div id="trigger1" class="spacer s0"></div>
+        <div id='reveal1' className="grid-container">
+          <div  className="item1">
+            <img src={sec1img}  style={{width:"600px",height:"600px",marginLeft:"80px",marginRight:"30px"}} alt="imagen"/>
           </div>
-          <div className="item2">
+          <div  className="item2">
             
               <p className='htext1'>
               En este breve relato queremos contarles una hermosa historia y el porqué seguimos adelante con ella, poniéndole mucha pasión, como expresión superlativa del amor fraternal.
@@ -33,10 +81,10 @@ export default function NuestraHistoriaComponent() {
               En este lugar teníamos un pequeño local dedicado a diferentes actividades desde antes de junio del 2019.
               </p>
           </div>
-         
         </div >
 
-        <div className='grid2'>
+        <div id="trigger2" class="spacer s0"></div>
+        <div id="reveal2" className='grid2'>
           <div className='item27'>
               <p className='htext4'>
               
@@ -56,7 +104,8 @@ export default function NuestraHistoriaComponent() {
 
         </div>
 
-        <div className='grid3'>
+        <div id="trigger3" class="spacer s0"></div>
+        <div id='reveal3' className='grid3'>
           <div className='item29'>
           <img src={sec3img}  style={{width:"600px",height:"600px",marginLeft:"50px",marginRight:"30px"}} alt="imagen"/>
           </div>
