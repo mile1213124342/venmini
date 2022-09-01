@@ -3,8 +3,7 @@ import './nuestrahistoria.css'
 import sec1img from "./historia/historia3.png"
 import sec2img from "./historia/historia1.png"
 import sec3img from "./historia/historia2.png"
-import ScrollMagic from "scrollmagic"
-
+import ScrollMagic from "scrollmagic";
 
 
 export default function NuestraHistoriaComponent() {
@@ -55,13 +54,13 @@ export default function NuestraHistoriaComponent() {
 
   return (
     <div style={{}}>
-        <div id="trigger0" class="spacer s0"></div>
+        <div id="trigger0" className="spacer s0"></div>
         <div id='reveal0'>
         <h2 className='titulo'>Ciudadanos del mundo</h2>
         <hr className='line'/>
         </div>
 
-        <div id="trigger1" class="spacer s0"></div>
+        <div id="trigger1" className="spacer s0"></div>
         <div id='reveal1' className="grid-container">
           <div  className="item1">
             <img src={sec1img}  style={{width:"600px",height:"600px",marginLeft:"80px",marginRight:"30px"}} alt="imagen"/>
@@ -83,7 +82,7 @@ export default function NuestraHistoriaComponent() {
           </div>
         </div >
 
-        <div id="trigger2" class="spacer s0"></div>
+        <div id="trigger2" className="spacer s0"></div>
         <div id="reveal2" className='grid2'>
           <div className='item27'>
               <p className='htext4'>
@@ -104,7 +103,7 @@ export default function NuestraHistoriaComponent() {
 
         </div>
 
-        <div id="trigger3" class="spacer s0"></div>
+        <div id="trigger3" className="spacer s0"></div>
         <div id='reveal3' className='grid3'>
           <div className='item29'>
           <img src={sec3img}  style={{width:"600px",height:"600px",marginLeft:"50px",marginRight:"30px"}} alt="imagen"/>
