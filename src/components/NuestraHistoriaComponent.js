@@ -5,6 +5,8 @@ import sec2img from "./historia/historia1.png"
 import sec3img from "./historia/historia2.png"
 import ScrollMagic from "scrollmagic";
 
+import { Controller , Scene } from 'scrollmagic'
+
 
 export default function NuestraHistoriaComponent() {
 

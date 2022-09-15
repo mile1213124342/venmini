@@ -38,7 +38,9 @@ export default function NavBarComponent() {
 
   return (
     <div style={backg}  className="center">
-        <nav className="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+      <div className='back-color'>
+
+        <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong center">
 
                 <a className="navbar-brand" href="#">
                   <img src={logo} className="img-responsive img" width="150px"  alt="logo" />
@@ -46,41 +48,29 @@ export default function NavBarComponent() {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse center" id="navbarSupportedContent">
                   <ul className="navbar-nav navbar-center" >
                         <li className="nav-item active">
-                          <a className="nav-link"style={fontColorNav} href="#">NOSOTROS <span className="sr-only">(current)</span></a>
+                          <Link to="/nosotros" className="nav-link" style={fontColorNav}>Nosotros</Link>
                         </li>
                         <li className="nav-item dropdown">
-                          <a className="nav-link " href="#" role="button"style={fontColorNav} data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                          </a>
-                          <div className="dropdown-menu">
-                            <a className="dropdown-item"  href="#">Queso</a>
-                            <a className="dropdown-item" href="#">Jamon</a>
-                            <a className="dropdown-item" href="#">Embutidos</a>
-                            <a className="dropdown-item" href="#">Golosinas</a>
-                            
-                          </div>
+                         
+                          <Link to="/productos" className="nav-link" style={fontColorNav}>Productos</Link>
                         </li>
                         <li className="nav-item dropdown">
-                          <a className="nav-link " href="#" role="button" style={fontColorNav} data-toggle="dropdown" aria-expanded="false">
-                            Galeria
-                          </a>
-                          <div className="dropdown-menu">
-                            <a className="dropdown-item" href="#">Productos</a>
-                            <a className="dropdown-item" href="#">Tienda</a>
-                          </div>
+                          <Link to="/galeria" className="nav-link" style={fontColorNav}>Galeria</Link>
                         </li>
                         <li className="nav-item">
-                          <Link to="/contacto" className="nav-link" style={fontColorNav}> Contacto</Link>
+                          <Link to="/contacto" className="nav-link" style={fontColorNav}>Contacto</Link>
                         </li>
                   </ul>
                   
                 </div>
           </nav>
 
-          <p style={text}>NOSOTROS</p>
+          <p  className="titulo-sec">NOSOTROS</p>
+
+      </div>
     </div>
   )
 }

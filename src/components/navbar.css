@@ -9,6 +9,7 @@ ul{
 
 .img{
     margin-left: 200px;
+    z-index: 1;
 }
 
 .navbar-center {
@@ -19,18 +20,124 @@ ul{
 
 .navbar .navbar-collapse {
     text-align: center;
+    
   }
  
+  .navbar-collapse {
+    
+    margin: -.5rem -1rem;
+    padding: .5rem 1rem;
+    z-index: 3;
+    }
+    .navbar-collapse  show{
+        
+        margin: -.5rem -1rem;
+        padding: .5rem 1rem;
+        z-index: 3;
+        }
 
-@media (min-width :600px) {
+
+  .titulo-sec{
+    position: relative;
+    top: 150px;
+    font-size: 60px;
+    color: white;
+    z-index: 2;
+}
+.navbar-toggler{
+    margin-right: 40px;
+}
+
+@media screen and (max-width:1924px){
+    .back-color{
+        background: rgba(0, 0, 0, 0.55) none repeat scroll 0% 0%;
+        background-color: rgba(0, 0, 0, 0.55);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1624px){
+    .back-color{
+        background: rgba(0, 0, 0, 0.55) none repeat scroll 0% 0%;
+        background-color: rgba(0, 0, 0, 0.55);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:810px){
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .navbar-toggler{
+        margin-right: 40px;
+    }
+    .navbar-toggler-icon{
+        border-color: white;
+    }
+    .titulo-sec{
+        color:"white";
+        font-size:"30px";
+        margin-top:"150px";
+    }
+    .back-color{
+        background: rgba(0, 0, 0, 0.55) none repeat scroll 0% 0%;
+        background-color: rgba(0, 0, 0, 0.55);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        height: 100%;
+    }
+   
+}
+
+@media screen and (max-width:767px){
         .img{
             margin-left: 50px;
             width: 100px;
         }
+        .navbar-toggler{
+            margin-right: 40px;
+        }
+        .navbar-toggler-icon{
+            border-color: white;
+        }
+        .titulo-sec{
+            color:"white";
+            font-size:"30px";
+            margin-top:"150px";
+        }
+       
 }
-@media (min-width :400px) {
+@media screen and (max-width :415px) {
     .img{
         margin-left: 50px;
         width: 100px;
+    }
+    .titulo-sec{
+        color:white;
+        font-size:40px;
+        margin-top:50px;
     }
 }

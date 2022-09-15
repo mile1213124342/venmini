@@ -8,11 +8,13 @@ import "./footer.css"
 
 export default function FooterComponent() {
   return (
+    <>
+
     <div style={{border:"5px solid black", margin:"20px"}}>
         <hr style={{marginTop:"50px",marginLeft:"50px",marginRight:"50px"}}></hr>
-        <div className="grid-footer" style={{height:"230px"}}>
+        <div className="grid-footer" style={{height:"200px"}}>
           <div className="item40">
-            <p className='text12' style={{width:"600px", display:"inline-block"}}>
+            <p className='text12' style={{width:"600px", display:"inline-block", fontSize:"23px"}}>
               Encontra todo en nuestras redes sociales, te esperamos en nuestro local
               en Punta Arenas para ofrecerte los mejores productos de calidad y la mejor atención
             </p>
@@ -33,7 +35,7 @@ export default function FooterComponent() {
 
         <div className="grid-footer">
           <div className="item42">
-            <p style={{width:"600px", display:"inline-block"}}>
+            <p style={{width:"600px", display:"inline-block",fontSize:"23px"}}>
               Punta Arenas se encuentra en el extremo sur de Chile, y es 
               la ciudad más poblada y cosmopolita de la Patagonia Chile.
               El local está emplazado en una zona centrica de la ciudad de
@@ -44,31 +46,44 @@ export default function FooterComponent() {
           <div className="item43">
             
           <div className="grid-footer2" style={{padding:"0px",height:"200px"}}>
-          <div className="item99">
-            <ul style={{display:"grid"}} >
-              <Link to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>PRODUCTOS</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Quesos</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Fiambres</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Embutidos</Link>
-              <Link  to="/productos" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Golosinas</Link>
-            </ul>
-            
-          </div>
-          <div className="item100">
+              <div className="item99">
 
-            <ul style={{display:"grid"}}>
-              <Link to="/galeria" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Galeria</Link>
-              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Equipo</Link>
-              <Link to="/" style={{color:"black",textDecoration:"none",fontSize:"20px"}}>Sumate</Link>
-            </ul>
-    
+                <ul style={{display:"grid"}} >
+                  <Link to="/productos" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Productos</Link>
+                </ul>
+                
+              </div>
+              <div className="item100">
+
+                <ul style={{display:"grid"}}>
+                  <Link to="/galeria" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Galeria</Link>
+                </ul>
+        
+              </div>
+              <div>
+              <ul style={{display:"grid"}}>
+                  <Link to="/contacto" style={{color:"black",textDecoration:"none",fontSize:"25px"}}>Contacto</Link>
+              
+                </ul>
+              </div>
           </div>
-         
-        </div>
              
           </div>
          
         </div>
     </div>
+
+
+      <div className='container'>
+              <div>
+
+              </div>
+
+              <div>
+                
+              </div>
+      </div>
+    </>
+    
   )
 }

@@ -5,7 +5,7 @@ import NuestraHistoriaComponent from '../NuestraHistoriaComponent'
 
 
 
-export default function Home() {
+export default function Nosotros() {
  
   return (
     <div >

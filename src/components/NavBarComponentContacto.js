@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "./images/logo.png";
-import background from  "./images/navbar-contacto2.jpg"
+import background from  "./images/FOTO_PRINCIPAL_LOCAL2.png"
 import "./navbar.css"
+import { Link } from 'react-router-dom'
 
 export default function NavBarComponentContacto() {
 
@@ -35,7 +36,9 @@ export default function NavBarComponentContacto() {
 
   return (
     <div style={backg}  className="center">
-        <nav className="navbar navbar-expand-lg navbar-light shadow-5-strong center">
+      <div className='back-color'>
+
+        <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong center">
 
                 <a className="navbar-brand" href="#">
                   <img src={logo} className="img-responsive img" width="150px"  alt="logo" />
@@ -46,38 +49,26 @@ export default function NavBarComponentContacto() {
                 <div className="collapse navbar-collapse center" id="navbarSupportedContent">
                   <ul className="navbar-nav navbar-center" >
                         <li className="nav-item active">
-                          <a className="nav-link"style={fontColorNav} href="#">NOSOTROS <span className="sr-only">(current)</span></a>
+                          <Link to="/nosotros" className="nav-link" style={fontColorNav}>Nosotros</Link>
                         </li>
                         <li className="nav-item dropdown">
-                          <a className="nav-link " href="#" role="button"style={fontColorNav} data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                          </a>
-                          <div className="dropdown-menu">
-                            <a className="dropdown-item"  href="#">Queso</a>
-                            <a className="dropdown-item" href="#">Jamon</a>
-                            <a className="dropdown-item" href="#">Embutidos</a>
-                            <a className="dropdown-item" href="#">Golosinas</a>
-                            
-                          </div>
+                         
+                          <Link to="/productos" className="nav-link" style={fontColorNav}>Productos</Link>
                         </li>
                         <li className="nav-item dropdown">
-                          <a className="nav-link " href="#" role="button" style={fontColorNav} data-toggle="dropdown" aria-expanded="false">
-                            Galeria
-                          </a>
-                          <div className="dropdown-menu">
-                            <a className="dropdown-item" href="#">Productos</a>
-                            <a className="dropdown-item" href="#">Tienda</a>
-                          </div>
+                          <Link to="/galeria" className="nav-link" style={fontColorNav}>Galeria</Link>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" style={fontColorNav}>Contacto</a>
+                          <Link to="/contacto" className="nav-link" style={fontColorNav}>Contacto</Link>
                         </li>
                   </ul>
                   
                 </div>
           </nav>
 
-          <p style={text}>CONTACTO</p>
+          <p  className="titulo-sec">CONTACTO</p>
+
+      </div>
     </div>
   )
 }

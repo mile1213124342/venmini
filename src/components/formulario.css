@@ -4,3 +4,29 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+@media screen and (max-width:767px){
+    .sec{
+        width: 350px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+}
+
+@media screen and (max-width:810px){
+    .sec{
+        width: 500px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+
+}
+@media screen and (max-width:414px){
+    .sec{
+        width: 300px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+}

@@ -18,7 +18,7 @@ export default function FormularioComponent() {
                 <input type="text" className="form-control" placeholder='Asunto' id="exampleInputPassword1"/>
             </div>
             <div className="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje'></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje'></textarea>
             </div>
             <button type="submit" className="btn btn-outline-dark">Enviar</button>
         </form>
