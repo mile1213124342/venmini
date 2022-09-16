@@ -1,0 +1,39 @@
+.containerC{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.containerC2{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    width: 1230px;
+}
+.imgC1{
+        width: 600px;
+        height: 400px;
+        order: 1;
+}
+.imgC2{
+    width: 600px;
+    height: 400px;
+    order: 2;
+}
+.imgC3{
+    width: 600px;
+    order: 3;
+}
+.imgC4{
+    width: 600px;
+    height: 400px;
+    order: 4;
+}
+.imgC5{
+    width: 600px;
+    height: 400px;
+    order: 5;
+}

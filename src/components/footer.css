@@ -1,4 +1,49 @@
-@media   (max-width :1600px) {
+@media  (max-width :1920px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .try{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textf1{
+        width: 600px;
+        font-size: 20px;
+    }
+    .text12{
+        width: 600px;
+        font-size: 20px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .listf{
+        width: 400px;
+        background-color: black;
+    }
+}
+
+@media  (max-width :1600px) {
     .img{
         margin-left: 50px;
         width: 100px;

@@ -1,0 +1,33 @@
+.back{
+    background-image: url('./images/08092022.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    margin-top: 20px;
+    background-position: center center;
+   
+    
+}
+
+
+    .back-color{
+        background: rgba(0, 0, 0, 0.55) none repeat scroll 0% 0%;
+        background-color: rgba(0, 0, 0, 0.55);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        height: 100%;
+        
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+  
+    }
