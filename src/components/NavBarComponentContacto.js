@@ -26,6 +26,7 @@ export default function NavBarComponentContacto() {
         backgroundSize:"cover",
         height:"564px",
         width:"100%",
+        
       }
   
       const text = {

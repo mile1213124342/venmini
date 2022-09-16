@@ -22,6 +22,7 @@ export default function FormularioComponent() {
             </div>
             <button type="submit" className="btn btn-outline-dark">Enviar</button>
         </form>
+        {window.screen.width}-{window.innerWidth}
     </div>
   )
 }

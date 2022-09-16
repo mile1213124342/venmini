@@ -1,4 +1,4 @@
-@media (max-width :700px) {
+@media   (max-width :1600px) {
     .img{
         margin-left: 50px;
         width: 100px;
@@ -6,9 +6,190 @@
     .text1{
         width: 300px;
     }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .try{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textf1{
+        width: 600px;
+        font-size: 23px;
+    }
+    .text12{
+        width: 600px;
+        font-size: 23px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .listf{
+        width: 400px;
+        background-color: black;
+    }
+}
+@media (max-width :998px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        height: 100px;
+       
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+        margin-top: 200px;
+    }
+}
+@media (max-width :974px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        height: 140px;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        margin-top: 330px;
+    }
+    
 }
 
-
+@media (max-width :800px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        height: 100px;
+        
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+    }
+}
+@media (max-width :798px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 30px;
+        height: 100px;
+       
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 40px;
+    }
+}
+@media (max-width :768px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .textf1{
+        width: 400px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        height: 140px;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        margin-top: 330px;
+    }
+    
+}
+@media (max-width :720px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 50px;
+        height: 100px;
+        border: 2px red;
+    }
+    .container2{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 100px;
+    }
+    .grid-footer2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 0px;
+        height: 200px;
+        width: 60px;
+        padding: 10px;
+        
+    }
+}
 @media (max-width :600px) {
     .img{
         margin-left: 50px;
@@ -18,7 +199,7 @@
         width: 300px;
     }
 }
-@media (min-width :400px) {
+@media (max-width :414px) {
     .img{
         margin-left: 50px;
         width: 100px;
@@ -33,36 +214,143 @@
     .item3{
         width: 300px;
     }
+    .textf1{
+        width: 400px;
+        font-size: 18px;
+       
+    }
+    .container{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+    }
+}
+@media (max-width :412px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .item1{
+        width: 300px;
+    }
+    .item3{
+        width: 300px;
+    }
+    .textf1{
+        width: 400px;
+        font-size: 18px;
+        
+    }
+    .container{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+    }
+}
+@media (max-width :375px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .item1{
+        width: 300px;
+    }
+    .item3{
+        width: 300px;
+    }
+    .textf1{
+        width: 400px;
+        font-size: 18px;
+      
+    }
+    .container{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+        width: auto;
+    }
+}
+@media (max-width :390px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .item1{
+        width: 300px;
+    }
+    .item3{
+        width: 300px;
+    }
+    .textf1{
+        width: 300px;
+        font-size: 18px;
+        
+    }
+    .container{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+        width: 300px;
+    }
+}
+@media (max-width :360px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .item1{
+        width: 300px;
+    }
+    .item3{
+        width: 300px;
+    }
+    .textf1{
+        width: 300px;
+        font-size: 18px;
+        
+    }
+    .container{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+    }
 }
 
-.grid-footer{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-    height: 200px;
-    border: 5px black;
-    padding: 10px;
-}
-.text12{
-    margin-left: 0px;
-}
-.grid-footer2{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 5px;
-    height: 200px;
-    width: 100px;
-    border: 5px black;
-    padding: 10px;
-}
-.item99{
-    width: 150px;
-}
-.item100{
-    width: 200px;
-}
 
-.container{
-    display: flex;
-    flex-wrap:wrap;
-}
+

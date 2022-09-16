@@ -20,22 +20,24 @@ ul{
 
 .navbar .navbar-collapse {
     text-align: center;
-    
   }
  
-  .navbar-collapse {
-    
+.navbar-collapse {
     margin: -.5rem -1rem;
     padding: .5rem 1rem;
     z-index: 3;
     }
-    .navbar-collapse  show{
-        
+.navbar-collapse  show{  
         margin: -.5rem -1rem;
         padding: .5rem 1rem;
         z-index: 3;
         }
-
+.img-back{
+   background-position: center center;
+}
+.center{
+    background-position: center center;
+}
 
   .titulo-sec{
     position: relative;
