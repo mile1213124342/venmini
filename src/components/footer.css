@@ -42,7 +42,6 @@
         background-color: black;
     }
 }
-
 @media  (max-width :1600px) {
     .img{
         margin-left: 50px;
@@ -83,7 +82,7 @@
         justify-content: center;
     }
     .listf{
-        width: 400px;
+        width: 800px;
         background-color: black;
     }
 }

@@ -11,7 +11,7 @@ export default function FooterComponent() {
     <>
 
     
-    <div style={{marginTop:"20px"}}>
+    <div style={{marginTop:"200px"}}>
       <div className='container'>
 
         <div>
@@ -26,6 +26,7 @@ export default function FooterComponent() {
             <i><img src={iconinsta} style={{width:"50px", marginRight:"5px"}}></img></i>
             <i><img src={iconfacebook} style={{width:"50px", marginRight:"5px"}}></img></i>
             <i href="http://bit.ly/WhatsVenMini"><img src={iconwhats} style={{width:"50px"}}></img></i>
+            
             <h1 style={{fontSize:"30px"}}>Pregunte aquí</h1>
             <a href='' style={{color:"yellow",fontSize:"30px"}}>www.venminimarket.com</a>
         </div>
