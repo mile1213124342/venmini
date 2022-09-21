@@ -7,6 +7,8 @@ export default function FormularioComponent() {
         <h5 className='m5'>Dejanos tu</h5>
         <h1>Mensaje</h1>
         <hr></hr>
+        <p className='textFormulario' >Comentarios, sugerencias, nos importa escuchar tu opinión.</p>
+        <p  className='textFormulario'> Para contacto de ventas dirigirse a: venminimarket@gmail.com</p>
         <form
             action='mailto:venminimarket@gmail.com'
             method='POST'
@@ -27,7 +29,7 @@ export default function FormularioComponent() {
             </div>
             <button type="submit" value="send" className="btn btn-outline-dark">Enviar</button>
         </form>
-        {window.screen.width}-{window.innerWidth}
+       
     </div>
   )
 }

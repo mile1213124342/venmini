@@ -16,20 +16,7 @@
     color: black;
     margin-bottom: 50px;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    height: 650px;
-    border: 5px black;
-    
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    font-size: 30px;
-  }
+
   p{
     font-size: 28px;
   }
@@ -50,52 +37,271 @@
     margin-right: 50px;
     width: 400px;
   }
-
-
-  .grid2{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0px;
-    height: 630px;
-    border: 5px black;
-   
-  }
-  .grid2 > div{
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    
-    font-size: 30px;
-   
-  }
-  .item27{
-      padding: 30px;
-      width: 500px;
-      margin-left: 80px;
-  }
   .htext4{
     font-size: 20px;
     width: 400px;
-    margin-left: 80px;
-  }
-  .grid3{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px;
-    height: 680px;
-    border: 5px black;
-    padding: 10px;
-  }
-  .grid3 > div{
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    
+   
   }
   .item30{
     width: 550px;
   }
 .htext5{
   font-size: 20px;
+  width: 500px;
+    
+}
+.htext5{
+  font-size: 20px;
+  width: 400px;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+.con1D{
+  
+}
+.con1I{
+  
+}
+.line2{
+  margin-top: 50px;
+}
+.img-hist{
+  width: 500px;
+  height: 600px;
+}
+@media (max-width :428px) {
+  .line{
+    position: relative;
+    left: 7%;
+    right: 80%;
+    width: 350px;
+    size: 8px;
+    color: black;
+    margin-bottom: 50px;
+}
+.titulo{
+  font-size: 25px;
 }
 
+  p{
+    font-size: 28px;
+  }
+  .htext1{
+    text-align: center;
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .htext2{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .htext3{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .item2{
+    margin-right: 50px;
+    width: 400px;
+  }
+  .htext4{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .item30{
+    width: 550px;
+  }
+.htext5{
+  font-size: 20px;
+  width: 500px;  
+}
+.htext5{
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+.img-hist{
+  width: 300px;
+  height: 400px;
+}
+.con1D{
+  
+}
+.con1I{
+  
+}
+.line2{
+  margin-top: 50px;
+}
+}
+
+@media (max-width :414px) {
+  .line{
+    position: relative;
+    left: 7%;
+    right: 80%;
+    width: 350px;
+    size: 8px;
+    color: black;
+    margin-bottom: 50px;
+}
+.titulo{
+  font-size: 25px;
+}
+
+  p{
+    font-size: 28px;
+  }
+  .htext1{
+    text-align: center;
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .htext2{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .htext3{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .item2{
+    margin-right: 50px;
+    width: 400px;
+  }
+  .htext4{
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+  }
+  .item30{
+    width: 550px;
+  }
+.htext5{
+  font-size: 20px;
+  width: 500px;  
+}
+.htext5{
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+.img-hist{
+  width: 300px;
+  height: 400px;
+}
+.con1D{
+  
+}
+.con1I{
+  
+}
+.line2{
+  margin-top: 50px;
+}
+}
+
+@media (max-width :375px) {
+  .line{
+    position: relative;
+    left: 7%;
+    right: 80%;
+    width: 350px;
+    size: 8px;
+    color: black;
+    margin-bottom: 50px;
+}
+.titulo{
+  font-size: 25px;
+}
+
+  p{
+    font-size: 28px;
+  }
+  .htext1{
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+  .htext2{
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+  .htext3{
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+  .item2{
+    margin-right: 50px;
+    width: 300px;
+  }
+  .htext4{
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+  .item30{
+    width: 550px;
+  }
+.htext5{
+  font-size: 20px;
+  width: 300px;  
+}
+.htext5{
+  font-size: 15px;
+  width: 300px;
+  padding: 10px;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+.img-hist{
+  width: 300px;
+  height: 400px;
+}
+.con1D{
+  
+}
+.con1I{
+  
+}
+.line2{
+  margin-top: 50px;
+}
+}

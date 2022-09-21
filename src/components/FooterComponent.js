@@ -11,7 +11,7 @@ export default function FooterComponent() {
     <>
 
     
-    <div style={{marginTop:"200px"}}>
+    <div className='containerFooter' >
       <div className='container1'>
 
         <div className='tex21'>
@@ -62,9 +62,7 @@ export default function FooterComponent() {
             </div>
 
       </div>
-    <div style={{backgroundColor:"black",display:"flex", textAlign:"right",width:"100%"}}>
-            <a style={{color:"white",fontSize:"20px"}}>venminimarket@gmail</a>
-    </div>
+   
     </div>
     </>
     

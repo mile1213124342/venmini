@@ -11,6 +11,10 @@
         margin-top: 100px;
         margin-bottom: 100px;
     } 
+    .textFormulario{
+        font-size: 18px;
+        
+    }
 }
 
 @media screen and (max-width:810px){
@@ -20,6 +24,9 @@
         margin-top: 100px;
         margin-bottom: 100px;
     } 
+    .textFormulario{
+        font-size: 20px;
+    }
 
 }
 @media screen and (max-width:414px){
@@ -29,4 +36,19 @@
         margin-top: 100px;
         margin-bottom: 100px;
     } 
+    .textFormulario{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:428px){
+    .sec{
+        width: 300px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+    .textFormulario{
+        font-size: 14px;
+    }
 }

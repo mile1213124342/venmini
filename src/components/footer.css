@@ -9,7 +9,7 @@
     .container2{
         display: flex;
         flex-wrap:wrap;
-        gap: 100px;
+        gap: 0px;
         margin-top: 20px;
         align-items: center;
         justify-content: center;
@@ -18,7 +18,7 @@
     .container1{
         display: flex;
         flex-wrap:wrap;
-        gap: 100px;
+        gap: 0px;
         align-items: center;
         justify-content: center;
     }
@@ -26,22 +26,35 @@
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
+    }
+    .textf{
+        width: 50%;
     }
     .textf1{
-        width: 600px;
-        font-size: 20px;
+        width: 100%;
+        font-size: 23px;
+        padding: 20px;
+    }
+    .tex21{
+        width: 50%;
     }
     .text12{
-        width: 600px;
-        font-size: 20px;
+        width: 100%;
+        font-size: 23px;
         display:flex;
         align-items: center;
         justify-content: center;
+        padding: 20px;
     }
     .listf{
-        width: 1000px;
+        width: 50%;
         background-color: black;
+    }
+    .iconsA{
+        width: 50%;
+    }
+    .containerFooter{
+        margin-top: 100px;
     }
 }
 @media  (max-width :1600px) {
@@ -98,6 +111,9 @@
     }
     .iconsA{
         width: 50%;
+    }
+    .containerFooter{
+        margin-top: 20px;
     }
 }
 @media (max-width :998px) {
@@ -275,7 +291,6 @@
     .textf1{
         width: 400px;
         font-size: 18px;
-       
     }
     .container1{
         gap: 10px;
@@ -285,6 +300,63 @@
     }
     .text12{
         font-size: 18px;
+        width: 100%;
+    }
+    .tex21{
+        width: 100%;
+    }
+    .textf{
+        width: 100%;
+    }
+    .listf{
+        width: 100%;
+        background-color: black;
+    }
+    .iconsA{
+        width: 100%;
+    }
+}
+@media (max-width :428px) {
+    .img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .item1{
+        width: 300px;
+    }
+    .item3{
+        width: 300px;
+    }
+    .textf1{
+        width: 410px;
+        font-size: 18px;
+    }
+    .container1{
+        gap: 10px;
+    }
+    .container2{
+        gap: 10px;
+    }
+    .text12{
+        font-size: 18px;
+        width: 100%;
+    }
+    .tex21{
+        width: 100%;
+    }
+    .textf{
+        width: 100%;
+    }
+    .listf{
+        width: 100%;
+        background-color: black;
+    }
+    .iconsA{
+        width: 100%;
     }
 }
 @media (max-width :412px) {
@@ -305,7 +377,6 @@
     .textf1{
         width: 400px;
         font-size: 18px;
-        
     }
     .container1{
         gap: 10px;
@@ -315,6 +386,20 @@
     }
     .text12{
         font-size: 18px;
+        width: 100%;
+    }
+    .tex21{
+        width: 100%;
+    }
+    .textf{
+        width: 100%;
+    }
+    .listf{
+        width: 100%;
+        background-color: black;
+    }
+    .iconsA{
+        width: 100%;
     }
 }
 @media (max-width :375px) {
@@ -335,7 +420,6 @@
     .textf1{
         width: 400px;
         font-size: 18px;
-      
     }
     .container1{
         gap: 10px;
@@ -345,7 +429,20 @@
     }
     .text12{
         font-size: 18px;
-        width: auto;
+        width: 100%;
+    }
+    .tex21{
+        width: 100%;
+    }
+    .textf{
+        width: 100%;
+    }
+    .listf{
+        width: 100%;
+        background-color: black;
+    }
+    .iconsA{
+        width: 100%;
     }
 }
 @media (max-width :390px) {
@@ -364,7 +461,7 @@
         width: 300px;
     }
     .textf1{
-        width: 300px;
+        width: 370px;
         font-size: 18px;
         
     }
@@ -373,10 +470,24 @@
     }
     .container2{
         gap: 10px;
+        text-align: center;
     }
     .text12{
         font-size: 18px;
-        width: 300px;
+        width: 100%;
+    }
+    .tex21{
+        width: 100%;
+    }
+    .textf{
+        width: 100%;
+    }
+    .listf{
+        width: 100%;
+        background-color: black;
+    }
+    .iconsA{
+        width: 100%;
     }
 }
 @media (max-width :360px) {
