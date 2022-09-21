@@ -38,7 +38,7 @@ export default function NavBarComponetnGaleria() {
     <div style={backg}  className="center">
     <div className='back-color'>
 
-      <nav className="navbar navbar-expand-lg navbar-light shadow-5-strong center">
+      <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong center">
 
               <a className="navbar-brand" href="#">
                 <img src={logo} className="img-responsive img" width="150px"  alt="logo" />
