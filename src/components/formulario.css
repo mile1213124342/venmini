@@ -4,6 +4,28 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+@media screen and (max-width:1920px){
+    .sec{
+        width: 600px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+    .textFormulario{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:1600px){
+    .sec{
+        width: 600px;
+        display:inline-block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+    .textFormulario{
+        font-size: 22px;
+    }
+}
 @media screen and (max-width:767px){
     .sec{
         width: 350px;
