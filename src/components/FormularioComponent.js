@@ -7,7 +7,12 @@ export default function FormularioComponent() {
         <h5 className='m5'>Dejanos tu</h5>
         <h1>Mensaje</h1>
         <hr></hr>
-        <form>
+        <form
+            action='mailto:venminimarket@gmail.com'
+            method='POST'
+            encType='text/plain'
+            name='EmailForm'
+        >
             <div className="form-group">
                 <input type="text" className="form-control" id="exampleInputEmail1" placeholder='Nombre' aria-describedby="emailHelp"/>
             </div>
@@ -18,9 +23,9 @@ export default function FormularioComponent() {
                 <input type="text" className="form-control" placeholder='Asunto' id="exampleInputPassword1"/>
             </div>
             <div className="form-group">
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje'></textarea>
+            <textarea className="form-control" name='message' type="text" id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje'></textarea>
             </div>
-            <button type="submit" className="btn btn-outline-dark">Enviar</button>
+            <button type="submit" value="send" className="btn btn-outline-dark">Enviar</button>
         </form>
         {window.screen.width}-{window.innerWidth}
     </div>

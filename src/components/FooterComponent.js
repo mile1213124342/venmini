@@ -12,16 +12,16 @@ export default function FooterComponent() {
 
     
     <div style={{marginTop:"200px"}}>
-      <div className='container'>
+      <div className='container1'>
 
-        <div>
+        <div className='tex21'>
             <p className='text12'>
               Encontra todo en nuestras redes sociales, te esperamos en nuestro local
               en Punta Arenas para ofrecerte los mejores productos de calidad y la mejor atención
             </p>
         </div>
 
-        <div>
+        <div className='iconsA'>
             <h1 style={{fontSize:"30px"}}>Encuentranos aqui</h1>
             <i><img src={iconinsta} style={{width:"50px", marginRight:"5px"}}></img></i>
             <i><img src={iconfacebook} style={{width:"50px", marginRight:"5px"}}></img></i>
@@ -35,7 +35,7 @@ export default function FooterComponent() {
 
       <div className='try'>
             <div className='container2'>
-                <div>
+                <div className='textf' >
 
                       <p className='textf1'>
                         Punta Arenas se encuentra en el extremo sur de Chile, y es 
@@ -62,7 +62,9 @@ export default function FooterComponent() {
             </div>
 
       </div>
-
+    <div style={{backgroundColor:"black",display:"flex", textAlign:"right",width:"100%"}}>
+            <a style={{color:"white",fontSize:"20px"}}>venminimarket@gmail</a>
+    </div>
     </div>
     </>
     

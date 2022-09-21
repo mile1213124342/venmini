@@ -13,8 +13,9 @@
         margin-top: 20px;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 100px;
@@ -25,6 +26,7 @@
         display:flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
     .textf1{
         width: 600px;
@@ -38,7 +40,7 @@
         justify-content: center;
     }
     .listf{
-        width: 400px;
+        width: 1000px;
         background-color: black;
     }
 }
@@ -53,15 +55,16 @@
     .container2{
         display: flex;
         flex-wrap:wrap;
-        gap: 100px;
+        gap: 0px;
         margin-top: 20px;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
-        gap: 100px;
+        gap: 0px;
         align-items: center;
         justify-content: center;
     }
@@ -70,20 +73,31 @@
         align-items: center;
         justify-content: center;
     }
+    .textf{
+        width: 50%;
+    }
     .textf1{
-        width: 600px;
+        width: 100%;
         font-size: 23px;
+        padding: 20px;
+    }
+    .tex21{
+        width: 50%;
     }
     .text12{
-        width: 600px;
+        width: 100%;
         font-size: 23px;
         display:flex;
         align-items: center;
         justify-content: center;
+        padding: 20px;
     }
     .listf{
-        width: 800px;
+        width: 50%;
         background-color: black;
+    }
+    .iconsA{
+        width: 50%;
     }
 }
 @media (max-width :998px) {
@@ -94,7 +108,7 @@
     .text1{
         width: 300px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 50px;
@@ -116,7 +130,7 @@
     .text1{
         width: 300px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 50px;
@@ -142,7 +156,7 @@
     .text1{
         width: 300px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 50px;
@@ -163,7 +177,7 @@
     .text1{
         width: 300px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 30px;
@@ -187,7 +201,7 @@
     .textf1{
         width: 400px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 50px;
@@ -212,7 +226,7 @@
     .text1{
         width: 300px;
     }
-    .container{
+    .container1{
         display: flex;
         flex-wrap:wrap;
         gap: 50px;
@@ -263,7 +277,7 @@
         font-size: 18px;
        
     }
-    .container{
+    .container1{
         gap: 10px;
     }
     .container2{
@@ -293,7 +307,7 @@
         font-size: 18px;
         
     }
-    .container{
+    .container1{
         gap: 10px;
     }
     .container2{
@@ -323,7 +337,7 @@
         font-size: 18px;
       
     }
-    .container{
+    .container1{
         gap: 10px;
     }
     .container2{
@@ -354,7 +368,7 @@
         font-size: 18px;
         
     }
-    .container{
+    .container1{
         gap: 10px;
     }
     .container2{
@@ -385,7 +399,7 @@
         font-size: 18px;
         
     }
-    .container{
+    .container1{
         gap: 10px;
     }
     .container2{

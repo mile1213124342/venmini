@@ -177,6 +177,127 @@
     }
     
 }
+@media screen and (max-width:1080px){
+    .containerC{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .containerC2{
+        display: flex;
+        flex-wrap:wrap;
+        flex-basis: 600px;
+        gap: 30px;
+        width: 1230px;
+    }
+    .containerC3{
+        display:flex; 
+        gap: 30px;
+    }
+    .containerC4{
+        display:flex; 
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 1230px;
+    }
+    .containerC5{
+        display:flex; 
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgC1{
+        width: 600px;
+        height: 435px;
+    }
+    .imgC2{
+        width: 600px;
+        height: 435px;
+    }
+    .imgC3{
+        width: 600px;    
+    }
+    .imgC4{
+        width: 600px;
+        height: 400px; 
+    }
+    .imgC5{
+        width: 600px;
+        height: 400px;
+    }
+    .imgC6{
+        width: 600px;
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width:810px){
+    .containerC{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .containerC2{
+        display: flex;
+        flex-wrap:wrap;
+        flex-basis: 600px;
+        gap: 30px;
+        width: 1230px;
+    }
+    .containerC3{
+        display:flex; 
+        gap: 30px;
+    }
+    .containerC4{
+        display:flex; 
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 1230px;
+    }
+    .containerC5{
+        display:flex; 
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgC1{
+        width: 600px;
+        height: 435px;
+    }
+    .imgC2{
+        width: 600px;
+        height: 435px;
+    }
+    .imgC3{
+        width: 600px;    
+    }
+    .imgC4{
+        width: 600px;
+        height: 400px; 
+    }
+    .imgC5{
+        width: 600px;
+        height: 400px;
+    }
+    .imgC6{
+        width: 600px;
+        height: 400px;
+    }
+    
+}
 
 @media screen and (max-width:414px){
     .containerC{
