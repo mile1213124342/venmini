@@ -13,7 +13,7 @@ export default function Nosotros() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false);
-    },4000);
+    },7000);
 
   },[])
  
