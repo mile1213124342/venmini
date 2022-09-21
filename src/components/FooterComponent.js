@@ -23,8 +23,9 @@ export default function FooterComponent() {
 
         <div className='iconsA'>
             <h1 style={{fontSize:"30px"}}>Encuentranos aqui</h1>
-            <i><img src={iconinsta} style={{width:"50px", marginRight:"5px"}}></img></i>
-            <i><img src={iconfacebook} style={{width:"50px", marginRight:"5px"}}></img></i>
+            
+            <a  href="https://www.instagram.com/venminimarket/"><i><img src={iconinsta} style={{width:"50px", marginRight:"5px"}}></img></i></a>
+            <a  href="https://www.facebook.com/minimarket.ven"><i><img src={iconfacebook} style={{width:"50px", marginRight:"5px"}}></img></i></a>
             <a  href="http://bit.ly/WhatsVenMini"><i><img src={iconwhats} style={{width:"50px", marginRight:"5px"}}></img></i></a>
             <h1 style={{fontSize:"30px"}}>Pregunte aquí</h1>
             <a href='https://venminimarket.herokuapp.com/contacto' style={{color:"yellow",fontSize:"30px"}}>www.venminimarket.com</a>
