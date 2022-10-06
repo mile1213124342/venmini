@@ -136,6 +136,7 @@
     .containerC3{
         display:flex; 
         gap: 30px;
+        height: 900px;
     }
     .containerC4{
         display:flex; 
@@ -151,6 +152,12 @@
         gap: 30px;
         align-items: center;
         justify-content: center;
+    }
+    .containerC8{
+        display:flex; 
+        gap: 30px;
+        height: 900px;
+        margin-top: 30px;
     }
     .imgC1{
         width: 600px;
@@ -196,6 +203,7 @@
     .containerC3{
         display:flex; 
         gap: 30px;
+        height: 900px;
     }
     .containerC4{
         display:flex; 
@@ -257,6 +265,7 @@
     .containerC3{
         display:flex; 
         gap: 30px;
+        height: 900px;
     }
     .containerC4{
         display:flex; 
