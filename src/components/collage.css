@@ -16,6 +16,7 @@
 .containerC3{
     display:flex; 
     gap: 30px;
+    height: 900px;
 }
 .containerC4{
     display:flex; 
@@ -75,6 +76,7 @@
     .containerC3{
         display:flex; 
         gap: 30px;
+        height: 900px;
     }
     .containerC4{
         display:flex; 
@@ -100,7 +102,8 @@
         height: 435px;
     }
     .imgC3{
-        width: 600px;    
+        width: 600px;  
+        height: 900px;  
     }
     .imgC4{
         width: 600px;

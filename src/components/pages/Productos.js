@@ -12,7 +12,7 @@ export default function Productos() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false);
-    },7000);
+    },4000);
 
   },[])
  
