@@ -1,5 +1,4 @@
 import React from 'react'
-import imgB from './images/08092022.jpg';
 import './productlink.css'
 
 export default function ProductosLinkComponent() {

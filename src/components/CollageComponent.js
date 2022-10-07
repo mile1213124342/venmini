@@ -25,7 +25,7 @@ import img18 from './productos/Embutidos cocidos y crudos/Mortadella pistachio y
 
 import img19 from './productos/Embutidos cocidos y crudos/03.jpg';
 import img20 from './productos/Embutidos cocidos y crudos/35.jpeg';
-
+import img21 from './productos/Embutidos cocidos y crudos/07.jpeg';
 
 
 import './collage.css'
@@ -80,6 +80,7 @@ export default function CollageComponent() {
                   </div>
                   <div className='containerC8'>
                         <img className='imgC3' src={img20}/>
+                        <img className='imgC3' src={img21}/>
                   </div>
             </div>
       </div>
