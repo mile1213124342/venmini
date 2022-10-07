@@ -56,6 +56,12 @@
     width: 1230px;
     height: 600px;
 }
+.containerC8{
+    display:flex; 
+    gap: 30px;
+    height: 900px;
+    margin-top: 30px;
+}
 
 @media  (max-width :1920px) {
     .containerC{
@@ -116,6 +122,12 @@
     .imgC6{
         width: 1230px;
         height: 600px;
+    }
+    .containerC8{
+        display:flex; 
+        gap: 30px;
+        height: 900px;
+        margin-top: 30px;
     }
     
 }
